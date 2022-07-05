@@ -1,4 +1,4 @@
-//alert("un mensaje");
+alert("un mensaje");
 
 document.write("<h1>Hello World</h1>");
 

@@ -6,11 +6,10 @@ console.log(numero1);
 console.log(numero2);
 console.log(numero3);
 
-if (numero1 > numero2 ){
-    document.write("El primer numero es el mayor " + numero1 );
-}else{
-    if(numero1 > numero3){
-        document.write("El primer numero es el mayor" + numero3)
-    }
+if (numero1 > numero2 && numero1 > numero3 ){
+    document.write("numero1 es el mayor " + numero1 );
+} else if (numero2 > numero3){
+    document.write ("numero2 es el mayor " + numero2 );
+}else {
+    document.write ("numero3 es el mayor "  + numero3 )
 }
-
