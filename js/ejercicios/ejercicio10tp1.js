@@ -1,4 +1,4 @@
-let numero1 = parseInt(prompt("Ingrese el primer numero"));
+let numero1 = prompt("Ingrese el primer numero");
 
 console.log(numero1)
 
