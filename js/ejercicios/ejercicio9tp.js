@@ -1,4 +1,4 @@
-let frase = prompt("Ingrese una frase de hasta 15 caracteres");
+let frase = prompt("Ingrese una frase de hasta 10 caracteres");
 console.log(frase);
 console.log(frase.length);
 
